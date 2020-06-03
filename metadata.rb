@@ -1,12 +1,14 @@
 name 'motd'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Sripadas'
+maintainer_email 'sripadas@outlook.com'
 license 'All Rights Reserved'
 description 'Installs/Configures motd'
 long_description 'Installs/Configures motd'
 version '0.1.0'
-chef_version '>= 12.14' if respond_to?(:chef_version)
+chef_version '>= 13.0
+supports 'redhat'
 depends 'pci'
+
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.

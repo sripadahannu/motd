@@ -1,1 +1,1 @@
-default["motd"]["company"] = "Sripadas INC"
+default['motd']['company'] = 'Sripadas INC'

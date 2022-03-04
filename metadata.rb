@@ -3,9 +3,8 @@ maintainer 'Sripadas'
 maintainer_email 'sripadas@outlook.com'
 license 'All Rights Reserved'
 description 'Installs/Configures motd'
-long_description 'Installs/Configures motd'
 version '0.1.0'
-chef_version '>= 13.0
+chef_version '>= 17.0'
 supports 'redhat'
 depends 'pci'
 
